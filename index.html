@@ -1,15 +1,18 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Motoki Watanabe Official Site</title>
+  <title>Motoki Watanabe | Engineer, VJ</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/reset.css">
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
   <div id="top">
-    <h1 id="top_name">Motoki Watanabe</h1>
-    <h2 id="top_role">Engineer, VJ</h2>
+    <div id="top_wrapper">
+      <h1 id="top_name">Motoki Watanabe</h1>
+      <h2 id="top_role">Engineer, VJ</h2>
+    </div>
   </div>
   <div id="profile"></div>
   <div id="skill"></div>
@@ -18,5 +21,17 @@
   <div id="vj"></div>
   <div id="contact"></div>
   <div id="footer"></div>
+
+  <!-- Javascript -->
+  <script>
+    $(document).ready(function () {
+      hsize = $(window).height();
+      $("#top").css("height", hsize + "px");
+    });
+    $(window).resize(function () {
+      hsize = $(window).height();
+      $("#top").css("height", hsize + "px");
+    });
+  </script>
 </body>
 </html>

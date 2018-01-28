@@ -3,6 +3,27 @@ body {
 }
 
 #top {
-  height: 800px;
-  background-color: #4352BC;
+  color: #FFFFFF;
+  background: url("../img/breakdawn5_vj.JPG")
+              no-repeat
+              fixed;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+#top::before {
+  /* 透過した青 */
+  background-color: rgba(67, 82, 188, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+}
+
+#top_wrapper {
+  position: absolute;
+  width: 100%;
+  text-align: center;
 }
