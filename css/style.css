@@ -1,5 +1,14 @@
 body {
-  width: 1200px;
+  font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+.max_width {
+  max-width: 1200px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 #top {
@@ -22,8 +31,21 @@ body {
   content: '';
 }
 
-#top_wrapper {
+#top_main_wrapper {
   position: absolute;
   width: 100%;
   text-align: center;
+}
+
+#top_sub_wrapper {
+  width: 100%;
+}
+
+#top_name {
+  font-size: 100px;
+  padding-bottom: 70px;
+}
+
+#top_role {
+  font-size: 80px
 }
