@@ -1,17 +1,22 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Motoki Watanabe | Engineer, VJ</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <meta name="" content="">
+  <link rel="shortcut icon" href="">
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
   <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
   <div id="top">
-    <div id="top_wrapper">
-      <h1 id="top_name">Motoki Watanabe</h1>
-      <h2 id="top_role">Engineer, VJ</h2>
+    <div id="top_main_wrapper" class="max_width">
+      <div id="top_sub_wrapper">
+        <h1 id="top_name">Motoki Watanabe</h1>
+        <h2 id="top_role">Engineer, VJ</h2>
+      </div>
     </div>
   </div>
   <div id="profile"></div>
@@ -24,6 +29,7 @@
 
   <!-- Javascript -->
   <script>
+    // トップページに画面の大きさ反映させる
     $(document).ready(function () {
       hsize = $(window).height();
       $("#top").css("height", hsize + "px");
