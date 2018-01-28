@@ -3,7 +3,7 @@ html,body{
   background:#FFF;
   width:100%;
 }
-body *{font-family:Helvetica,Arial,'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN','メイリオ','Meiryo','ＭＳ Ｐゴシック','MS PGothic',sans-serif;}
+/* body *{font-family:Helvetica,Arial,'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN','メイリオ','Meiryo','ＭＳ Ｐゴシック','MS PGothic',sans-serif;} */
 /*
   TODO remove settings on BODY since we can't namespace it.
 */
