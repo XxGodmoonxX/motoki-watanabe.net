@@ -238,6 +238,10 @@ body {
   text-align: center;
 }
 
+.blog_content {
+  margin-bottom : 50px;
+}
+
 /* VJ */
 
 #vj {
