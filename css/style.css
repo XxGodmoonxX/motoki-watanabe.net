@@ -128,12 +128,56 @@ body {
   bottom: 40px;
 }
 
+/* SKILL */
+
 #skill {
   background-color: #8D96D8;
   color: white;
+  min-height: 800px;
 }
 
 .skill_item {
   margin-top: 10px;
   font-size: 50px;
+}
+
+/* WORKS */
+
+#works {
+  background-color: #D8DCF3;
+  color: #4352BC
+  /* min-height: 800px; */
+}
+
+/* BLOG */
+
+#blog {
+  background-color: #8D96D8;
+  color: white;
+  min-height: 800px;
+}
+
+/* VJ */
+
+#vj {
+  background-color: #D8DCF3;
+  color: #4352BC;
+  min-height: 800px;
+}
+
+/* CONTACT */
+
+#contact {
+  background-color: #8D96D8;
+  color: white;
+  min-height: 800px;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #4352BC;
+  color: white;
+  text-align: center;
+  font-size: 20px;
 }
