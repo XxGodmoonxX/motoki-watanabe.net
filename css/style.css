@@ -155,8 +155,58 @@ body {
 
 #works {
   background-color: #D8DCF3;
-  color: #4352BC
-  /* min-height: 800px; */
+  color: #4352BC;
+}
+
+.works_item {
+  border: 1px solid  #4352BC;
+  height: 300px;
+}
+
+.works_item_content {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.works_programming {
+  background-color: #4352BC;
+  color: white;
+  height: 25px;
+}
+
+.works_others {
+  background-color:white;
+  color: #4352BC;
+  height: 25px;
+}
+
+#works_item1 {
+  background: url("../img/web-browser-vj.png")
+  no-repeat;
+}
+
+.works_item_title {
+  font-size: 50px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.works_item_img {
+  overflow: hidden;
+  height: 600px;
+  width: 600px;
+  margin: 0;
+}
+
+.works_item_img img {
+  height: 100%;
+}
+
+.works_item_article {
+  font-size: 20px;
+  height: 30px;
+  margin-bottom: 30px;
 }
 
 /* BLOG */
