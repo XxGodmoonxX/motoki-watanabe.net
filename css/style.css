@@ -11,9 +11,18 @@ body {
   left: 0;
 }
 
-.row {
+.row * {
   margin: 0;
 }
+
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* TOP */
 
 #top {
   color: #FFFFFF;
@@ -44,7 +53,7 @@ body {
 }
 
 #top_sub_wrapper {
-  margin-top: 100px;
+  margin-top: 150px;
   /* width: 100%; */
   /* margin: 0; */
   /* height: 800px; */
@@ -78,10 +87,53 @@ body {
   margin: 0 20px;
 }
 
-#profile_main_wrapper {
+/* PROFILE */
 
+#profile {
+  background-color: #D8DCF3;
+  min-height: 800px;
 }
 
 #profile_img {
+  overflow: hidden;
+  min-height: 800px;
   width: 100%;
+  margin: 0;
+}
+
+#profile_content {
+  color: #4352BC;
+  font-weight: bold;
+  position: relative;
+}
+
+.profile_item {
+  font-size: 30px;
+}
+
+.profile_item_big {
+  font-size: 50px;
+}
+
+.profile_content_wrapper {
+  margin-top: 50px;
+}
+
+#profile_view {
+  border: #4352BC
+          1px
+          solid;
+  text-align: center;
+  position: absolute;
+  bottom: 40px;
+}
+
+#skill {
+  background-color: #8D96D8;
+  color: white;
+}
+
+.skill_item {
+  margin-top: 10px;
+  font-size: 50px;
 }
