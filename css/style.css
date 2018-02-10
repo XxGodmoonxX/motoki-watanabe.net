@@ -186,6 +186,25 @@ body {
   no-repeat;
 }
 
+#works_item2 {
+  background: url("../img/eye-cosplayer.jpg")
+  no-repeat;
+}
+
+#works_item3 {
+  background: url("../img/nouha.png")
+  no-repeat;
+}
+
+#works_item4 div{
+  font-size: 35px;
+}
+
+#works_item4 {
+  background: url("../img/arcade.png")
+  no-repeat;
+}
+
 .works_item_title {
   font-size: 50px;
   text-align: center;
@@ -215,6 +234,8 @@ body {
   background-color: #8D96D8;
   color: white;
   min-height: 800px;
+  font-size: 30px;
+  text-align: center;
 }
 
 /* VJ */
