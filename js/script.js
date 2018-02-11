@@ -82,4 +82,15 @@
       $("#works_item7_content").hide();
       $("#works_item8_content").hide();
     });
+    // 5つ目押した5つ目表示
+    $("#works_item5").click(function() {
+      $("#works_item1_content").hide();
+      $("#works_item2_content").hide();
+      $("#works_item3_content").hide();
+      $("#works_item4_content").hide();
+      $("#works_item5_content").show();
+      $("#works_item6_content").hide();
+      $("#works_item7_content").hide();
+      $("#works_item8_content").hide();
+    });
   });

@@ -156,6 +156,7 @@ body {
 #works {
   background-color: #D8DCF3;
   color: #4352BC;
+  padding-bottom: 30px;
 }
 
 .works_item {
@@ -205,6 +206,11 @@ body {
   no-repeat;
 }
 
+#works_item5 {
+  background: url("../img/mymemory.png")
+  no-repeat;
+}
+
 .works_item_title {
   font-size: 50px;
   text-align: center;
@@ -239,7 +245,7 @@ body {
 }
 
 .blog_content {
-  margin-bottom : 50px;
+  margin-bottom : 30px;
 }
 
 /* VJ */
