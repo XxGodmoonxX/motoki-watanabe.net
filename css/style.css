@@ -11,6 +11,10 @@ body {
   left: 0;
 }
 
+.min_width {
+  min-width: 1200px;
+}
+
 .row * {
   margin: 0;
 }
@@ -75,6 +79,7 @@ body {
   margin: 0;
   position: absolute;
   bottom: 40px;
+  max-width: 1200px;
 }
 
 #top_menu div {
@@ -157,6 +162,10 @@ body {
   background-color: #D8DCF3;
   color: #4352BC;
   padding-bottom: 30px;
+}
+
+#works div .row {
+  margin: 0;
 }
 
 .works_item {
