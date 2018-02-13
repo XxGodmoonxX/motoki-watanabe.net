@@ -298,6 +298,21 @@ body {
   font-size: 30px;
 }
 
+/* FOOTER用メニュー */
+
+#footer_menu {
+  background-color:#6876CA;
+  color: white;
+}
+
+#footer_menu_wrapper {
+  font-size: 30px;
+  width: 1200px;
+  margin: 0;
+  min-width: 1200px;
+  height: 100px;
+}
+
 /* FOOTER */
 
 #footer {
