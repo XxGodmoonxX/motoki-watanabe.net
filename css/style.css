@@ -31,8 +31,7 @@ body {
 #top {
   color: #FFFFFF;
   background: url("../img/breakdawn5_vj.JPG")
-              no-repeat
-              fixed;
+              no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;
