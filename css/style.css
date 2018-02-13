@@ -79,7 +79,7 @@ body {
   margin: 0;
   position: absolute;
   bottom: 40px;
-  max-width: 1200px;
+  min-width: 1200px;
 }
 
 #top_menu div {
