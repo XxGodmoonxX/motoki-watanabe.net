@@ -151,10 +151,26 @@ body {
   height: 60px;
 }
 
+.fa-html5 {
+  color: #EE6534;
+}
+
+.fa-css3-alt {
+  color: #1170ba;
+}
+
+.fa-js {
+  color: #E3A138;
+}
+
 .skill_content_icon {
   font-size: 100px;
   margin-bottom: 40px;
-  height: 60px;
+}
+
+.skill_content_icon_img {
+  width: 100px;
+  margin-bottom: 40px;
 }
 
 /* WORKS */
