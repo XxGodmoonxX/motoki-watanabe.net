@@ -304,6 +304,12 @@ body {
   font-size: 30px;
 }
 
+.vj_event_img {
+  margin-top: 40px;
+  overflow: hidden;
+  height: 100%;
+}
+
 /* CONTACT */
 
 #contact {
