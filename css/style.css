@@ -101,6 +101,10 @@ body {
   margin: 0;
 }
 
+#profile_img img {
+  min-height: 800px;
+}
+
 #profile_content {
   color: #4352BC;
   font-weight: bold;
