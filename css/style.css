@@ -319,7 +319,40 @@ body {
 }
 
 .contact_sns {
-  font-size: 30px;
+  margin-top: 30px;
+  width: 600px;
+}
+
+.contact_sns_item {
+  margin-bottom: 50px;
+}
+
+.fa-facebook, .fa-instagram, .fa-github, .fa-linkedin, .fa-envelope, .fa-university {
+  font-size: 100px;
+}
+
+.fa-facebook {
+  color: #3C5A96;
+}
+
+.fa-instagram {
+  color: #BA338F;
+}
+
+.fa-linkedin {
+  color: #127CB4;
+}
+
+.fa-envelope-square {
+  color: white;
+}
+
+.contact_icon {
+  width: 100px;
+}
+
+.contact_mail {
+  font-size: 20px;
 }
 
 /* FOOTER用メニュー */
