@@ -34,6 +34,7 @@ a.link_blue {
 a.link_blue:hover {
   color: white;
   background-color: #4352BC;
+  text-decoration: none;
 }
 
 a.link_white {
@@ -43,6 +44,7 @@ a.link_white {
 a.link_white:hover {
   color: #4352BC;
   background-color: white;
+  text-decoration: none;
 }
 
 /* TOP */
@@ -330,6 +332,13 @@ a.link_white:hover {
 
 .vj_event_wrapper {
   font-size: 30px;
+  color: #4352BC;
+}
+
+.vj_event_wrapper:hover {
+  color: white;
+  background-color:  #4352BC;
+  text-decoration: none;
 }
 
 .vj_event_img {
@@ -369,6 +378,10 @@ a.link_white:hover {
 
 .fa-instagram {
   color: #BA338F;
+}
+
+.fa-github:hover {
+  color: black;
 }
 
 .fa-linkedin {
