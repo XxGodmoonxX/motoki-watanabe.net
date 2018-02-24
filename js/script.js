@@ -94,11 +94,9 @@ $(function() {
     $("#works_item7_content").hide();
     $("#works_item8_content").hide();
   });
-});
 
-// ボタンを押したらスクロールするようにする
-$(function() {
-  //#で始まるリンクをクリックしたら実行
+  // ボタンを押したらスクロールするようにする
+  // #で始まるリンクをクリックしたら実行
   $('a[href^="#"]').click(function() {
     // スクロールの速度
     var speed = 700;
