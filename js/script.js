@@ -96,18 +96,22 @@ $(function() {
   });
 
   // ボタンを押したらスクロールするようにする
+  // クリックした要素のhref属性に指定されたidの要素の上端
+  // またはhtml要素の上端をスクロール席に指定する
   // #で始まるリンクをクリックしたら実行
   $('a[href^="#"]').click(function() {
     // スクロールの速度
     var speed = 700;
     //クリックしたaタグのhrefで指定されている値を取得
     var href = $(this).attr("href");
-    // 移動先を取得
+    // 移動先を取得 hrefが"#"または""のときはhtml（つまりトップ）
+    // それ以外のときはhrefに指定されているidの要素
     var target = $(href == "#" || href == "" ? "html" : href);
-    // 移動先を数値で取得
+    // 移動先を数値で取得 targetの上端
     var position = target.offset().top;
     // スムーススクロール
     $("body, html").animate(
+      // scrollTopをpositionに向けて変化
       {scrollTop:position}, speed, "swing"
     );
     return false;
