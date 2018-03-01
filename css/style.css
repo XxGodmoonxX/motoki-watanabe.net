@@ -2,7 +2,7 @@ body {
   font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
 
-/* パソコン表示だと1200pxに中身をおさめる */
+/* パソコン表示だと横を1200pxに中身をおさめる */
 .max_width {
   max-width: 1200px;
   margin: auto;
@@ -11,9 +11,13 @@ body {
   bottom: 0;
   left: 0;
 }
-/* パソコン表示だと1200pxまでしか小さくさせない */
+/* パソコン表示だと横を1200pxまでしか小さくさせない */
 .min_width {
   min-width: 1200px;
+}
+/* パソコン表示だと縦800pxまでしか小さくさせない */
+.min_height {
+  min-height: 800px;
 }
 /* スマホ表示 ~768px */
 @media screen and (max-width: 768px) {
@@ -79,7 +83,7 @@ a.link_white:link {
   background-size: cover;
   position: relative;
   height: 100%;
-  min-height: 800px;
+  /* min-height: 800px; */
 }
 #top::before {
   /* 透過した青 */
@@ -135,12 +139,12 @@ a.link_white:link {
 
 #profile {
   background-color: #D8DCF3;
-  min-height: 800px;
+  /* min-height: 800px; */
 }
 
 #profile_img {
   overflow: hidden;
-  min-height: 800px;
+  /* min-height: 800px; */
   width: 100%;
   margin: 0;
 }
@@ -181,7 +185,7 @@ a.link_white:link {
 #skill {
   background-color: #8D96D8;
   color: white;
-  min-height: 800px;
+  /* min-height: 800px; */
 }
 
 .skill_item {
@@ -322,7 +326,7 @@ a.link_white:link {
 #blog {
   background-color: #8D96D8;
   color: white;
-  min-height: 800px;
+  /* min-height: 800px; */
   font-size: 30px;
   text-align: center;
 }
@@ -336,7 +340,7 @@ a.link_white:link {
 #vj {
   background-color: #D8DCF3;
   color: #4352BC;
-  min-height: 800px;
+  /* min-height: 800px; */
 }
 
 #vj_content  {
@@ -380,7 +384,7 @@ a.link_white:link {
 #contact {
   background-color: #8D96D8;
   color: white;
-  min-height: 800px;
+  /* min-height: 800px; */
 }
 
 .contact_sns {
