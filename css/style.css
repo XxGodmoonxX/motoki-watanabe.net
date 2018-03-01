@@ -88,6 +88,7 @@ a.link_white:link {
   height: 100%;
   /* min-height: 800px; */
 }
+
 #top::before {
   /* 透過した青 */
   background-color: rgba(67, 82, 188, 0.8);
@@ -125,7 +126,16 @@ a.link_white:link {
   margin: 0;
   position: absolute;
   bottom: 40px;
-  min-width: 1200px;
+  /* min-width: 1200px; */
+}
+@media screen and (max-width: 768px) {
+  #top_menu {
+    font-size: 20px;
+    width: 750px;
+    margin: 0;
+    position: absolute;
+    bottom: 40px;
+  }
 }
 
 #top_menu a {
@@ -447,8 +457,17 @@ a.link_white:link {
   font-size: 30px;
   width: 1200px;
   margin: 0;
-  min-width: 1200px;
+  /* min-width: 1200px; */
   height: 100px;
+}
+@media screen and (max-width: 768px) {
+  #footer_menu_wrapper {
+    font-size: 30px;
+    width: 750px;
+    margin: 0;
+    /* min-width: 1200px; */
+    height: 100px;
+  }
 }
 
 /* FOOTER */
