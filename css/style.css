@@ -1,6 +1,7 @@
 body {
   font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
+
 /* パソコン表示だと1200pxに中身をおさめる */
 .max_width {
   max-width: 1200px;
@@ -14,10 +15,19 @@ body {
 .min_width {
   min-width: 1200px;
 }
-@media screen and (min-width: 768px) {
-.min_width {
-  min-width: 750px;
-}
+/* スマホ表示 ~768px */
+@media screen and (max-width: 768px) {
+  .max_width {
+    max-width: 750px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .min_width {
+    min-width: 750px;
+  }
 }
 
 .row, .row * {
