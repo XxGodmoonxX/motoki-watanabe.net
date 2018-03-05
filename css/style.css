@@ -33,12 +33,13 @@ body {
     min-width: 100%;
   }
   .min_height {
-    min-height: 1000px;
+    min-height: 568px;
   }
 }
 
 .row, .row * {
   margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -115,9 +116,17 @@ a.link_white:link {
   font-size: 100px;
   padding-bottom: 70px;
 }
-
 #top_sub_wrapper h2 {
   font-size: 80px;
+}
+@media screen and (max-width: 768px) {
+  #top_sub_wrapper h1 {
+    font-size: 50px;
+    padding-bottom: 70px;
+  }
+  #top_sub_wrapper h2 {
+    font-size: 40px;
+  }
 }
 
 #top_menu {
@@ -160,10 +169,24 @@ a.link_white:link {
   /* min-height: 800px; */
   width: 100%;
   margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  #profile_img {
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+  }
 }
 
 #profile_img img {
   min-height: 800px;
+}
+@media screen and (max-width: 768px) {
+  #profile_img img {
+    width: auto;
+    height: 100%;
+  }
 }
 
 #profile_content {
