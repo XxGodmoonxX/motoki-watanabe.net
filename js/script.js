@@ -6,8 +6,10 @@ $(document).ready(function () {
   //#topのCSSにheight(hsize)px
   $("#top").css("height", hsize + "px");
   $("#profile").css("height", hsize + "px");
-  $("#profile_img").css("height", hsize + "px");
-  $("#profile_img img").css("height", hsize + "px");
+  if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+    $("#profile_img").css("height", hsize + "px");
+    $("#profile_img img").css("height", hsize + "px");
+  }
   $("#skill").css("height", hsize + "px");
   // $("#works").css("height", hsize + "px");
   $("#blog").css("height", hsize + "px");
@@ -19,8 +21,10 @@ $(window).resize(function () {
   hsize = $(window).height();
   $("#top").css("height", hsize + "px");
   $("#profile").css("height", hsize + "px");
-  $("#profile_img").css("height", hsize + "px");
-  $("#profile_img img").css("height", hsize + "px");
+  if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+    $("#profile_img").css("height", hsize + "px");
+    $("#profile_img img").css("height", hsize + "px");
+  }
   $("#skill").css("height", hsize + "px");
   // $("#works").css("height", hsize + "px");
   $("#blog").css("height", hsize + "px");
