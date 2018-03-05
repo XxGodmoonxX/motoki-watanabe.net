@@ -3,10 +3,11 @@
 $(document).ready(function () {
 //ウィンドウの高さを取得しhsizeに入れる
   hsize = $(window).height();
+  windowWidth = $(window).width();
   //#topのCSSにheight(hsize)px
   $("#top").css("height", hsize + "px");
   $("#profile").css("height", hsize + "px");
-  if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+  if (windowWidth >= 768) {
     $("#profile_img").css("height", hsize + "px");
     $("#profile_img img").css("height", hsize + "px");
   }
@@ -19,9 +20,10 @@ $(document).ready(function () {
 //画面をリサイズ
 $(window).resize(function () {
   hsize = $(window).height();
+  windowWidth = $(window).width();
   $("#top").css("height", hsize + "px");
   $("#profile").css("height", hsize + "px");
-  if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+  if (windowWidth >= 768) {
     $("#profile_img").css("height", hsize + "px");
     $("#profile_img img").css("height", hsize + "px");
   }
