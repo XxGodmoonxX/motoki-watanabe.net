@@ -49,6 +49,7 @@ body {
   padding-top: 10px;
 }
 
+
 /* aタグのエフェクト */
 a.link_blue {
   color: #4352BC;
@@ -199,13 +200,25 @@ a.link_white:link {
 .profile_item {
   font-size: 30px;
 }
-
 .profile_item_big {
   font-size: 50px;
+}
+@media screen and (max-width: 768px) {
+  .profile_item {
+    font-size: 20px;
+  }
+  .profile_item_big {
+    font-size: 30px;
+  }
 }
 
 .profile_content_wrapper {
   margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .profile_content_wrapper {
+    margin-top: 10px;
+  }
 }
 
 #profile_view {
@@ -215,6 +228,19 @@ a.link_white:link {
   text-align: center;
   position: absolute;
   bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  #profile_view {
+    /* とりあえずスマホでは消そうもう。笑 */
+    display: none;
+
+    border: #4352BC
+            1px
+            solid;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+  }
 }
 
 /* SKILL */
