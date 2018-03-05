@@ -19,7 +19,9 @@ $(document).ready(function () {
     $("#blog").css("height", hsize + "px");
   }
   $("#vj").css("height", hsize + "px");
-  $("#contact").css("height", hsize + "px");
+  if (windowWidth >= 768) {
+    $("#contact").css("height", hsize + "px");
+  }
 });
 //画面をリサイズ
 $(window).resize(function () {
@@ -39,7 +41,9 @@ $(window).resize(function () {
     $("#blog").css("height", hsize + "px");
   }
   $("#vj").css("height", hsize + "px");
-  $("#contact").css("height", hsize + "px");
+  if (windowWidth >= 768) {
+    $("#contact").css("height", hsize + "px");
+  }
 });
 
 //WORKSの表示非表示
