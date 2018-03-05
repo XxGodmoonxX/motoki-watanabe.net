@@ -190,6 +190,7 @@ a.link_white:link {
 }
 
 #profile_content {
+  padding-left: 15px;
   color: #4352BC;
   font-weight: bold;
   position: relative;
@@ -258,11 +259,13 @@ a.link_white:link {
 .skill_content_icon {
   font-size: 85px;
   margin-bottom: 40px;
+  padding-left: 15px;
 }
 
 .skill_content_icon_img {
   width: 100px;
   margin-bottom: 40px;
+  padding-left: 15px;
 }
 
 /* WORKS */
