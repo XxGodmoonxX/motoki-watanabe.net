@@ -7,13 +7,17 @@ $(document).ready(function () {
   //#topのCSSにheight(hsize)px
   $("#top").css("height", hsize + "px");
   $("#profile").css("height", hsize + "px");
+  // 768px以上のとき
   if (windowWidth >= 768) {
     $("#profile_img").css("height", hsize + "px");
     $("#profile_img img").css("height", hsize + "px");
   }
   $("#skill").css("height", hsize + "px");
   // $("#works").css("height", hsize + "px");
-  $("#blog").css("height", hsize + "px");
+  // 768px以上のとき
+  if (windowWidth >= 768) {
+    $("#blog").css("height", hsize + "px");
+  }
   $("#vj").css("height", hsize + "px");
   $("#contact").css("height", hsize + "px");
 });
@@ -23,13 +27,17 @@ $(window).resize(function () {
   windowWidth = $(window).width();
   $("#top").css("height", hsize + "px");
   $("#profile").css("height", hsize + "px");
+  // 768px以上のとき
   if (windowWidth >= 768) {
     $("#profile_img").css("height", hsize + "px");
     $("#profile_img img").css("height", hsize + "px");
   }
   $("#skill").css("height", hsize + "px");
   // $("#works").css("height", hsize + "px");
-  $("#blog").css("height", hsize + "px");
+  // 768px以上のとき
+  if (windowWidth >= 768) {
+    $("#blog").css("height", hsize + "px");
+  }
   $("#vj").css("height", hsize + "px");
   $("#contact").css("height", hsize + "px");
 });
