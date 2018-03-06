@@ -501,6 +501,9 @@ a.link_white:link {
 }
 
 #vj_view {
+  /* 一旦まだ作ってないから見えなくする */
+  display: none;
+
   border: #4352BC
           1px
           solid;
