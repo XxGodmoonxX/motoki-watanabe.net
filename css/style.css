@@ -231,6 +231,7 @@ a.link_white:link {
           solid;
   text-align: center;
   position: absolute;
+  left: 30px;
   bottom: 40px;
 }
 @media screen and (max-width: 768px) {
@@ -238,6 +239,7 @@ a.link_white:link {
     /* とりあえずスマホでは消そうもう。笑 */
     display: none;
 
+    left: 10px;
     bottom: 10px;
   }
 }
