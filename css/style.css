@@ -378,20 +378,19 @@ a.link_white:link {
 }
 
 #works_item1 {
-  background: url("../img/web-browser-vj.png")
+  /* background: url("../img/web-browser-vj.png") */
+  background: url("../img/works_img_top/web-browser-vj.png")
   no-repeat;
 }
-
 #works_item2 {
-  background: url("../img/eye-cosplayer.jpg")
+  /* background: url("../img/eye-cosplayer.jpg") */
+  background: url("../img/works_img_top/eye-cosplayer.jpg")
   no-repeat;
 }
-
 #works_item3 {
   background: url("../img/nouha.png")
   no-repeat;
 }
-
 #works_item4 div{
   font-size: 35px;
 }
@@ -400,15 +399,43 @@ a.link_white:link {
     font-size: 15px;
   }
 }
-
 #works_item4 {
   background: url("../img/arcade.png")
   no-repeat;
 }
-
 #works_item5 {
   background: url("../img/mymemory.png")
   no-repeat;
+}
+/* スマホ表示のときのWORKSの画像 */
+@media screen and (max-width: 768px) {
+  #works_item1 {
+    /* background: url("../img/web-browser-vj.png") */
+    background: url("../img/works_img_top_phone/web-browser-vj.png")
+    no-repeat
+    cover;
+  }
+  #works_item2 {
+    /* background: url("../img/eye-cosplayer.jpg") */
+    background: url("../img/works_img_top_phone/eye-cosplayer.jpg")
+    no-repeat
+    cover;
+  }
+  #works_item3 {
+    background: url("../img/works_img_top_phone/nouha.png")
+    no-repeat
+    cover;
+  }
+  #works_item4 {
+    background: url("../img/works_img_top_phone/arcade.png")
+    no-repeat
+    cover;
+  }
+  #works_item5 {
+    background: url("../img/works_img_top_phone/mymemory.png")
+    no-repeat
+    cover;
+  }
 }
 
 .works_item_title {
