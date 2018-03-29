@@ -388,7 +388,7 @@ a.link_white:link {
   no-repeat;
 }
 #works_item3 {
-  background: url("../img/nouha.png")
+  background: url("../img/works_img_top/nouha.png")
   no-repeat;
 }
 #works_item4 div{
@@ -400,11 +400,11 @@ a.link_white:link {
   }
 }
 #works_item4 {
-  background: url("../img/arcade.png")
+  background: url("../img/works_img_top/arcade.png")
   no-repeat;
 }
 #works_item5 {
-  background: url("../img/mymemory.png")
+  background: url("../img/works_img_top/mymemory.png")
   no-repeat;
 }
 /* スマホ表示のときのWORKSの画像 */
