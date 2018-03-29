@@ -678,6 +678,20 @@ a.link_white:link {
     height: 100px;
   }
 }
+/* 一番上に戻るボタン */
+#scroll_top span {
+  position: absolute;
+  /* top: 0;
+  left: 50%; */
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
 
 /* FOOTER */
 
