@@ -407,6 +407,10 @@ a.link_white:link {
   background: url("../img/works_img_top/mymemory.png")
   no-repeat;
 }
+#works_item6 {
+  background: url("../img/works_img_top/vlog.jpg")
+  no-repeat;
+}
 /* スマホ表示のときのWORKSの画像 */
 @media screen and (max-width: 768px) {
   #works_item1 {
@@ -433,6 +437,11 @@ a.link_white:link {
   }
   #works_item5 {
     background: url("../img/works_img_top_phone/mymemory.png")
+    no-repeat
+    cover;
+  }
+  #works_item6 {
+    background: url("../img/works_img_top_phone/vlog.jpg")
     no-repeat
     cover;
   }
