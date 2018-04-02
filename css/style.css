@@ -340,7 +340,7 @@ a.link_white:link {
 }
 
 .works_item {
-  border: 1px solid  #4352BC;
+  /* border: 1px solid  #4352BC; */
   height: 300px;
 }
 @media screen and (max-width: 768px) {
