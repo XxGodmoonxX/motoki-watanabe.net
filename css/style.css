@@ -83,6 +83,18 @@ a.link_white:link {
   text-decoration: none;
 }
 
+a.link_under {
+  text-decoration: underline;
+}
+
+a.link_under:hover {
+  text-decoration: underline;
+}
+
+a.link_under:link {
+  text-decoration: underline;
+}
+
 /* TOP */
 
 #top {
