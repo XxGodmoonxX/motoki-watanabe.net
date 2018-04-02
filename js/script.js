@@ -6,7 +6,10 @@ $(document).ready(function () {
   windowWidth = $(window).width();
   //#topのCSSにheight(hsize)px
   $("#top").css("height", hsize + "px");
-  $("#profile").css("height", hsize + "px");
+  // 768px以上のとき
+  if (windowWidth >= 768) {
+    $("#profile").css("height", hsize + "px");
+  }
   // 768px以上のとき
   if (windowWidth >= 768) {
     $("#profile_img").css("height", hsize + "px");
@@ -28,7 +31,10 @@ $(window).resize(function () {
   hsize = $(window).height();
   windowWidth = $(window).width();
   $("#top").css("height", hsize + "px");
-  $("#profile").css("height", hsize + "px");
+  // 768px以上のとき
+  if (windowWidth >= 768) {
+    $("#profile").css("height", hsize + "px");
+  }
   // 768px以上のとき
   if (windowWidth >= 768) {
     $("#profile_img").css("height", hsize + "px");
