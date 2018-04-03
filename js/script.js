@@ -9,9 +9,6 @@ $(document).ready(function () {
   // 768px以上のとき
   if (windowWidth >= 768) {
     $("#profile").css("height", hsize + "px");
-  }
-  // 768px以上のとき
-  if (windowWidth >= 768) {
     $("#profile_img").css("height", hsize + "px");
     $("#profile_img img").css("height", hsize + "px");
   }
@@ -20,9 +17,7 @@ $(document).ready(function () {
   // 768px以上のとき
   if (windowWidth >= 768) {
     $("#blog").css("height", hsize + "px");
-  }
-  $("#vj").css("height", hsize + "px");
-  if (windowWidth >= 768) {
+    $("#vj").css("height", hsize + "px");
     $("#contact").css("height", hsize + "px");
   }
 });
@@ -34,9 +29,6 @@ $(window).resize(function () {
   // 768px以上のとき
   if (windowWidth >= 768) {
     $("#profile").css("height", hsize + "px");
-  }
-  // 768px以上のとき
-  if (windowWidth >= 768) {
     $("#profile_img").css("height", hsize + "px");
     $("#profile_img img").css("height", hsize + "px");
   }
@@ -45,9 +37,7 @@ $(window).resize(function () {
   // 768px以上のとき
   if (windowWidth >= 768) {
     $("#blog").css("height", hsize + "px");
-  }
-  $("#vj").css("height", hsize + "px");
-  if (windowWidth >= 768) {
+    $("#vj").css("height", hsize + "px");
     $("#contact").css("height", hsize + "px");
   }
 });

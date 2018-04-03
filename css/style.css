@@ -1,5 +1,5 @@
 body {
-  font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", /* "ヒラギノ角ゴ Pro W3", */ "メイリオ", sans-serif;
 }
 
 /* パソコン表示だと横を1200pxに中身をおさめる */
@@ -296,7 +296,7 @@ a.link_under:link {
 }
 @media screen and (max-width: 768px) {
   .skill_content {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 20px;
@@ -825,14 +825,26 @@ a#return:link {
   color: #4352BC;
   font-size: 20px;
 }
-
 .profile_detail_item {
   font-size: 50px;
   text-align: center;
   padding: 30px 0;
 }
-
 .profile_detail_content {
   font-size: 20px;
   padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  #profile_detail {
+    font-size: 15px;
+  }
+  .profile_detail_item {
+    font-size: 40px;
+    padding: 20px 0;
+  }
+  .profile_detail_content {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
 }
