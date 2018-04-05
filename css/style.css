@@ -520,6 +520,15 @@ a.link_under:link {
   }
 }
 
+.works_item_article span {
+  margin-left: 60px;
+}
+@media screen and (max-width: 768px) {
+  .works_item_article span {
+    margin-left: 45px;
+  }
+}
+
 /* BLOG */
 
 #blog {
