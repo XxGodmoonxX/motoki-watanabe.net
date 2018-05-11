@@ -427,10 +427,6 @@ a.link_under:link {
   no-repeat;
 }
 #works_item6 {
-  background: url("../img/works_img_top/vlog.jpg")
-  no-repeat;
-}
-#works_item7 {
   background: url("../img/works_img_top/portfolio.png")
   no-repeat;
 }
@@ -464,11 +460,6 @@ a.link_under:link {
     cover;
   }
   #works_item6 {
-    background: url("../img/works_img_top_phone/vlog.jpg")
-    no-repeat
-    cover;
-  }
-  #works_item7 {
     background: url("../img/works_img_top_phone/portfolio.png")
     no-repeat
     cover;
