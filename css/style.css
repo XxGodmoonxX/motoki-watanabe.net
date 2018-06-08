@@ -47,6 +47,9 @@ body {
   }
 }
 /* スマホなら非表示 */
+.nodisplay_phone {
+  display: inline;
+}
 @media screen and (max-width: 768px) {
   .nodisplay_phone {
     display: none;
@@ -490,6 +493,12 @@ a.link_under:link {
     background: url("../img/works_img_top_phone/portfolio.png")
     no-repeat
     cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #works_item7, #works_item8 {
+    display: none;
   }
 }
 
