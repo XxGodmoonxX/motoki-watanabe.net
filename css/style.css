@@ -572,6 +572,7 @@ a.link_under:link {
   #vj_content  {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
   }
 }
 
@@ -595,8 +596,17 @@ a.link_under:link {
   }
 }
 
+.nodisplay_pc {
+  display: none;
+}
 @media screen and (max-width: 768px) {
-  .display_phone {
+  .nodisplay_pc {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nodisplay_phone {
     display: none;
   }
 }
@@ -615,8 +625,9 @@ a.link_under:link {
 }
 @media screen and (max-width: 768px) {
   #vj_event {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 30px;
+    margin-bottom: 10px;
   }
 }
 
