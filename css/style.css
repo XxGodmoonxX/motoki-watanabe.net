@@ -578,6 +578,11 @@ a.link_under:link {
   color: #4352BC;
   /* min-height: 800px; */
 }
+@media screen and (max-width: 768px) {
+  #vj {
+    padding-bottom: 20px;
+  }
+}
 
 #vj_content  {
   margin: 0;
