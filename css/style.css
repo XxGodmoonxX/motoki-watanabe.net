@@ -106,6 +106,17 @@ a.link_under:link {
   height: 100%;
   /* min-height: 800px; */
 }
+@media screen and (max-width: 768px) {
+  #top {
+    color: #FFFFFF;
+    background: url("../img/disney_1_phone.JPG")
+                no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    /* min-height: 800px; */
+  }
+}
 
 #top::before {
   /* 透過した青 */
