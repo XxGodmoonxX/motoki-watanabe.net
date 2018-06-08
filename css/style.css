@@ -37,6 +37,22 @@ body {
   }
 }
 
+/* パソコンならば非表示 */
+.nodisplay_pc {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .nodisplay_pc {
+    display: inline;
+  }
+}
+/* スマホなら非表示 */
+@media screen and (max-width: 768px) {
+  .nodisplay_phone {
+    display: none;
+  }
+}
+
 .row, .row * {
   margin: 0;
   padding: 0;
@@ -593,21 +609,6 @@ a.link_under:link {
   #vj_view {
     font-size: 30px;
     bottom: 0px;
-  }
-}
-
-.nodisplay_pc {
-  display: none;
-}
-@media screen and (max-width: 768px) {
-  .nodisplay_pc {
-    display: inline;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .nodisplay_phone {
-    display: none;
   }
 }
 
