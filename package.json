@@ -1,6 +1,8 @@
 {
   "name": "motoki-watanabe.net",
   "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
