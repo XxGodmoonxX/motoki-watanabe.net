@@ -14,8 +14,24 @@ function Layout({ children }) {
         <title>Motoki Watanabe | Engineer, VJ</title>
       </Head>
       <header></header>
-      <div>{children}</div>
+      <div className="container">{children}</div>
       <footer></footer>
+
+      <style jsx>{`
+        .container {
+          width: 1000px;
+          margin: auto;
+        }
+      `}</style>
+
+      <style jsx global>{`
+        html,
+        body {
+           {
+            /* margintop: 100px; */
+          }
+        }
+      `}</style>
     </>
   );
 }
