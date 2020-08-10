@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import styles from "./layout.module.scss";
 
 function Layout({ children }) {
   return (
@@ -16,22 +15,6 @@ function Layout({ children }) {
       <header></header>
       <div className="container">{children}</div>
       <footer></footer>
-
-      <style jsx>{`
-        .container {
-          width: 1000px;
-          margin: auto;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-           {
-            /* margintop: 100px; */
-          }
-        }
-      `}</style>
     </>
   );
 }
